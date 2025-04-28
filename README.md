@@ -3,25 +3,31 @@
 This **Quiz App** is built with **Next.js** and **Tailwind CSS**, providing a dynamic and engaging quiz experience. The app features a variety of interactive elements such as real-time scoring, a timer for each question, answer validation, and detailed results upon completion. The user interface is fully responsive and the quiz data is loaded from JSON files.
 
 ## Live Demo
-[Click Here to Try the Quiz App](https://quiz-app-aman-kumar-sinha.vercel.app/)
+
+[Click Here to Try the Quiz App]
 
 ## Features
 
 ### 1. **Subject Selection**
+
 - Choose a subject from the home page.
 - Questions are dynamically loaded from JSON files located in the `/public/data` folder for each subject.
 
 ### 2. **Timed Quiz**
+
 - Each question has a countdown timer of **10 seconds**.
 - If the timer runs out, the question is marked as unattempted.
 
 ### 3. **Answer Validation**
+
 - Selected answers turn **green** if correct, **red** if incorrect, and the correct answer is highlighted in green for immediate feedback.
 
 ### 4. **Scoring System**
+
 - Earn **4 points** for each correct answer, with the score displayed at the top throughout the quiz.
 
 ### 5. **Post-Quiz Results**
+
 - **Detailed Results Page**: After completing the quiz, users receive a comprehensive performance breakdown:
   - Total Points
   - Points Earned
@@ -34,6 +40,7 @@ This **Quiz App** is built with **Next.js** and **Tailwind CSS**, providing a dy
 - The results page features icons and colors for improved readability, along with a celebratory **confetti** effect.
 
 ### 6. **Responsive Design**
+
 - Fully responsive, ensuring seamless functionality across all devices, including mobile and desktop.
 
 ## Technologies Used
@@ -48,24 +55,29 @@ This **Quiz App** is built with **Next.js** and **Tailwind CSS**, providing a dy
 ## How to Run the Project
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/AmanKumarSinhaGitHub/Quiz-App-in-NextJS.git
+git clone
 ```
 
 ### 2. Navigate to the Project Folder
+
 ```bash
 cd quiz-app
 ```
 
 ### 3. Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 4. Run the Development Server
+
 ```bash
 npm run dev
 ```
+
 Open your browser and go to `http://localhost:3000` to see the app in action.
 
 ## Project Structure
